@@ -58,7 +58,7 @@
     <dependency>
       <groupId>com.querydsl</groupId>
       <artifactId>querydsl-sql</artifactId>
-      <version>${querydsl.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>com.h2database</groupId>
@@ -112,7 +112,7 @@
       <plugin>
         <groupId>com.querydsl</groupId>
         <artifactId>querydsl-maven-plugin</artifactId>
-        <version>${querydsl.version}</version>
+        <version>${project.version}</version>
         <executions>
           <execution>
             <goals>
